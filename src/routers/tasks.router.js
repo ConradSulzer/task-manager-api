@@ -16,10 +16,7 @@ router.post('/tasks', auth, async (req, res) => {
         res.status(400).send()
     }
 });
-
-//GET /tasks?completed=false
-//GET /task?limit=10&skip=10
-//GET /tasks?sortBy=createdAt_asc 
+ 
 router.get('/tasks', auth, async (req, res) => {
     const match = {}
     const sort = {}

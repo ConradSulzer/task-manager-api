@@ -106,7 +106,6 @@ userSchema.pre('save', async function(next) {
         user.password = await bcrypt.hash(user.password, 8);
     }
 
-
     next() //Lets mongoose know we have finished running code and to go ahead and save the user
 });
 

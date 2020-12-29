@@ -1,1 +1,1 @@
-This is the backend for a task manager app. It uses Node.js, Express and MongoDB to create the API.   
+REST API for a task manager app. Uses Nodejs, Express and MongoDB.  
